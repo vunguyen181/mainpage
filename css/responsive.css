@@ -1,0 +1,74 @@
+@media (max-width:654px){
+    .homepage-middle img{
+        width: 380px;
+        height: 280px;
+        margin-right: 15px;
+    }
+    .my-resume img{
+        margin-top:-150px;
+        margin-left: -220px;
+    }
+    .homepage-header-right{
+        right: 0;
+        top: 14px;
+        font-size: 18px;
+    }
+    .text-footer{
+        bottom: 30px;
+        font-size: 18px;
+    }
+    .greenshop-project img{
+        height: 200px;
+        width: 294px;
+    }
+    .shooting-star1{
+        top:190px
+    }
+    .shooting-star2{
+        top:40px
+    }
+    .gallery__inner{
+        width: 346px;
+    }
+    .text-footer{
+        padding: 10px 0 0 10px;
+    }
+    .design-text{
+        left: 8px;
+    }
+    .wrapper{
+        width: 100vw;
+        display: table-row;
+    }
+    .gallery-image{
+        width: 94vw;
+        height: 100%;
+    }
+    .first{
+        margin-bottom: 20px;
+    }
+    .dot-active2{
+        right: 22%;
+    }
+    .dot-bg2{
+        right: 22%;
+    }
+    .image-collection{
+        transform: translate(-50%,-50%);
+        opacity: 0;
+        pointer-events: none;
+    }
+    .image-collection.show{
+        opacity: 100%;   
+        pointer-events: visible;
+    }
+    
+}
+@media (min-width: 768px){
+    .wrapper{
+        width: 100vw;
+    }
+}
+
+
+/*---------------------------------------------------------------------*/
